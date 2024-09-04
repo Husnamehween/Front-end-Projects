@@ -1,0 +1,73 @@
+body{
+    background: url(basketballPitch.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    margin: 30px;
+    font-size: 80px;
+    color: aliceblue;
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    
+
+}
+.player-1-score,.player-2-score{
+    background-color: #0a2351;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    margin: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.heading{
+    color: white;
+    font-size: 40px;
+    margin-bottom:20px;
+    font-weight: bold;
+}
+.score{
+    background-color: black;
+    color: red;
+    height: 100px;
+    width: 100px;
+    margin:2px;
+    
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+.buttons{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;  
+}
+button{
+    margin: 10px;
+    background-color: #0a2351;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    color: azure;
+    font-weight: bold;
+    font-size: large;
+    border: white;
+    border: solid;
+}

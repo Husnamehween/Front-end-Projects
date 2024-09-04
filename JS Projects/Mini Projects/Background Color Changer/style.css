@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    margin: 20vmin;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 10vmin;
+}
+
+button {
+    margin: 50px 30px;
+    height: 50px;
+    width: 200px;
+    border-radius: 4px;
+    background-color: rgb(255, 210, 242);
+    font-size: 25px;
+    border: none;
+
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}

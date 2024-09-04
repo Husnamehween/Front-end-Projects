@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+    background-color:  #8dc6ff;
+    
+}
+
+.button{
+    position: relative;
+    padding: 15px 20px;
+    font-size: 1.5rem;
+    background-color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    color: #5c4800;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.button:hover{
+    letter-spacing: 0.1rem;
+}
+
+#Newsletter{    
+    position: fixed;
+    top: -40%;
+    left: 50%; 
+    transform: translate(-50%,-50%); 
+    background-color: #22313f;
+    z-index: 1000;
+    width: 450px;
+    padding: 80px 50px 50px;
+    transition: 0.5s;
+    border-radius: 4px;
+    visibility: hidden;
+   
+
+}
+
+#Newsletter.active{
+    visibility: visible;
+    top: 50%;
+}
+
+#Newsletter h2{
+
+    text-align: center;
+    color: #cec297;
+    font-size: 32px;
+    margin: 15px 20px;
+}
+
+#Newsletter p{
+    text-align: center;
+    font-size: 20px;
+    color: #a1966e;
+}
+
+#Newsletter .box{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input, button{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    outline: none;
+    font-size: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 3px;
+}
+
+button{
+    border: none;
+    width: 150px;
+    letter-spacing: 0.1rem;
+    background-color:  #8dc6ff;
+    color:#22313f ;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.close{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 20px;
+    color: white;
+    background-color: #34495e;
+    border: 3px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 3px;
+}
+

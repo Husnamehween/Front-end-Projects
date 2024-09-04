@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    height: 100vh;
+    background-color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+header{
+    background-color: #222d36;
+    color: white;
+    padding: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    height: 93%;
+    width: 100%;
+    background-color:#2e3849;
+   }
+
+
+.left .box{
+    height: 28vh;
+    background-color: #2e3849;
+    border-radius: 5px;
+    width: 100%;
+}
+label ion-icon {
+    margin: 0 10px;
+    color:  #aca3a4;
+}
+label{
+    font-size: 22px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    height: 25px;
+   
+}
+
+.left,.right{
+    flex-basis: 50%;
+    padding: 10px;
+  
+}
+.left{
+
+width: 60%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+textarea{
+    width: 99%;
+    height: 87%;
+    resize: none;
+    padding: 5px 5px;
+    font-size: 18px;
+    border-radius: 5px;
+   /* background-color:#323d4f ;*/
+    background-color: #1b212c;
+    color: white;
+    border:none;
+}
+textarea:focus{
+    background-color: #222b3a;  
+}
+iframe{
+    width: 100%;
+    height: 96%;
+    border-radius: 5px;
+    background-color: #f7f7f8;
+    border: 1px solid;
+    
+}
+
+.right{
+    background-color: #1b212c;
+    width: 40%;
+}
